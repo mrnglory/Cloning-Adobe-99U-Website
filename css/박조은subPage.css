@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	.interviewMain{
+		width:66.1%;
+		margin:1.5% 0;
+		height:300px;
+	}
+	.interviewMain2{
+		float:right;
+		color:#7b68ee;
+		font-size:1.7em;
+		font-weight:bold;
+		padding:25px;
+		padding-top:35px;
+		text-align:center;
+		width:32.3%;
+		margin:1.5%;
+		margin-right:0;
+		height:300px;
+		background-color:#dfdfdf;
+	}
+	.interviewMain2 input{
+		color:#7b68ee;
+		text-align:center;
+	}
+	.interviewMain2 a{
+		color:#7b68ee;
+	}
+	.interviewMain2 div{
+		margin-bottom:20px;
+	}
+	.clip-8{
+		margin:1.5%;
+		margin-left:0;
+		margin-top:0;
+		height:900px;
+	}
+	#ordered{
+		padding-bottom:20px;
+	}
+	ol{
+		list-style:none;
+		text-align:center;
+	}
+	ol li{
+		font-size:1.3em;
+		display:inline-block;
+		margin-right:20px;
+		width:50px;
+		height:50px;
+		line-height:50px;
+	}
+	ol li:first-child{
+		background-color:black;
+	}
+	ol li:first-child a{
+		color:white;
+	}

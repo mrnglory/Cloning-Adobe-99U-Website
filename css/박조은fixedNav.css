@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fixinner{
+	position:fixed;
+	width:100%;
+	top:-40px;
+	text-align:center;
+	height:120px;
+	margin:0 auto;
+	background-color:white;
+}

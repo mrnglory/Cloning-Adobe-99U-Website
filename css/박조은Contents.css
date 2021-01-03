@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.header{
+	font-size: 1.2em;
+	margin-left: 40px;
+}
+.titlelink{
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+.titlelink a:hover{
+	color: #7b68ee;
+}
+.bigCon{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.bigCon a:hover{
+	text-decoration: underline;
+}
+.context{
+	font-size: 1.6em;
+}
+.author{
+	position: relative;
+	bottom: 0;
+}
+.copyline{
+	margin: 30px 15px;
+	font-size: 3.4em;
+	font-weight: bold;
+	color: white;
+}
+.subscribe{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.subscribe a{
+	color: white;
+}

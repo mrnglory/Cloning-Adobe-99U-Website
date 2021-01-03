@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login | MOOD INDIGO</title>
+    <link href="../css/박조은Index.css" rel="stylesheet">
+    <link href="../css/박조은Contents.css" rel="stylesheet">
+    <link href="../css/박조은subMenu.css" rel="stylesheet">
+    <link href="../css/박조은slideShow.css" rel="stylesheet">
+	<script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/박조은buttonRotate.js"></script>
+    <script src="../js/박조은subMenu.js"></script>
+    <script src="../js/박조은index.js"></script>
+    <script src="../js/박조은loginCheckForm.js"></script>
+</head>
+
+<body>
+<header>
+	<span class="header">Creative's Guide To Creative Things</span>
+    	<span class="login">
+        <ul>
+        	<li><a href="박조은contact.html">CONTACT</a></li>
+        	<li><a href="박조은login.html">LOGIN</a></li>
+        	<li><a href="박조은join.html">JOIN</a></li>
+        </ul>
+        </span>
+</header>
+<div id="wrap">
+    <nav>
+    <div class="mainMenuBox">
+    <div class="menuItem">
+        <ul>
+          <li><a href="박조은interviews.html">Interviews</a></li>
+          <li><a href="#">Conference</a></li>
+          <li><a href="박조은magazine.html">Magazine</a></li>
+          <li><a href="../박조은index.html"><img src="../img/logo.png"></a></li>
+          <li><a href="박조은articles.html">Articles</a></li>
+          <li><a href="#">Talks</a></li>
+          <li><a href="#">Books</a></li>
+          <li ><a href="#" id="subMenuLi">Topics&nbsp;<img src="../img/arrow.png"></a></li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+    
+    <div id="subMenuBox">
+        <div id="subMenuItem">
+            <ul>
+                <li><a href="박조은career.html">Career</a></li>
+                <li><a href="박조은collaboration.html">Collaboration</a></li>
+                <li><a href="박조은creativeProcess.html">Creative Process</a></li>
+                <li><a href="박조은productivity.html">Productivity</a></li>
+                <li><a href="박조은phychology.html">Psychology</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="contents">
+        <form id="newMemberForm" method="post" action="newMemberOk.jsp" onSubmit="return checkForm()">
+            <table cellspacing="50" style="padding:100px 0;">
+            <tr>
+                <td><p style="font-size:2em;color:#7b68ee;font-weight:bold;">Login</p></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label>
+                <input id="email" name="email" type="text" value="" maxlength="64" style="width:100%;" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label>
+                <input id="password" name="password" type="password" value="" maxlength="32" style="width:100%;"></td>
+            </tr>
+            <tr>
+                <td><button type="submit" style="width:100%;font-size:1.3em;">Login</button></td>
+            </tr>
+            <tr>
+                <td><div class="join" type="submit"><a href="박조은join.html">JOIN</a></div></td>
+            </tr>
+            </table>
+        </form>
+    </div>
+    
+    <footer style="text-align:center;margin:0 auto;">
+<form action="MAILTO:pje0721@naver.com" method="post">
+            
+                <div class="title" style="font-size:2em;padding-top:20px;font-weight:bold;">Contact</div>
+                <div class="hr" style="margin-top:20px;"></div>
+                <div style="margin-top:20px;">
+                <table>
+                    <tr><td><input type="text" name="name" placeholder="Name*" size="17" required></td><td rowspan="3">
+                    <textarea rows="5" cols="17" name="message" placeholder="Message"></textarea></td></tr>
+                    <tr><td><input type="email" name="email" placeholder="Email*" size="17" required></td></tr>
+                    <tr><td><input type="text" name="title" placeholder="Title" size="17"></td></tr>
+                    <tr><td></td><td style="float:right;"><input type="submit" value="메일전송"></td></tr>
+                </table>
+                </div>
+            	<div style="margin-top:30px;font-size:14px;width:300px;text-align:left;">
+                November 2017, somewhere in <a href="#">South Korea</a><p><br>
+                ©2017 Creative Boom Ltd.<p><br>
+                Registered in England and Wales #07437294.<p><br>
+                Created by Boomerang PR
+
+                </div>
+                <div class="totop" style="float:right;margin-right:20px;">
+                ↑<br>TOP
+                </div>
+    </footer>
+</div>
+</form>
+</body>
+</html>

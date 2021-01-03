@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	.magazine{
+		height:700px;
+		margin-bottom:5%;
+	}
+	.back{
+		display:none;
+	}
+	.magazine .bigCon{
+		font-size:5em;
+		font-weight:bold;
+	}
+	.magazine .bigCon a:hover{
+		text-decoration:none;
+	}
+	#contents li:hover a{
+		display:block;
+	}
+	.plus, .minus{
+		background-color:#7b68ee;
+		display:block;
+		color:white;
+		margin-bottom:10px;
+		font-size:2em;
+		width:30px;
+		height:30px;
+		line-height:25px;
+		text-align:center;
+	}
+	.clip-21{
+		height:390px;
+	}
+	.amount{
+		margin-right:5px;
+	}
+	.total{
+		line-height:35px;
+	}
+	.order{
+		display:block;
+		color:white;
+		font-weight:bold;
+		font-size:1.3em;
+		height:40px;
+		line-height:40px;
+		width:170px;
+		letter-spacing:2px;
+		background-color:#7b68ee;
+	}

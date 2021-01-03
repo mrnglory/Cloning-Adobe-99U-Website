@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact | MOOD INDIGO</title>
+    <link href="../css/박조은Index.css" rel="stylesheet">
+    <link href="../css/박조은Contents.css" rel="stylesheet">
+    <link href="../css/박조은subMenu.css" rel="stylesheet">
+    <link href="../css/박조은fixedNav.css" rel="stylesheet">
+	<script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/박조은buttonRotate.js"></script>
+    <script src="../js/박조은subMenu.js"></script>
+    <script src="../js/박조은index.js"></script>
+    <script src="../js/박조은slideShow.js"></script>
+    <script src="../js/박조은checkForm.js"></script>
+    <script src="../js/박조은fixedNav.js"></script>
+    <script src="../js/박조은contactCheckForm.js"></script>
+    <style>
+	input{
+		width:100%;
+	}
+	</style>
+</head>
+
+<body>
+<header>
+	<span class="header">Creative's Guide To Creative Things</span>
+    	<span class="login">
+        <ul>
+        	<li><a href="박조은contact.html">CONTACT</a></li>
+        	<li><a href="박조은login.html">LOGIN</a></li>
+        	<li><a href="박조은join.html">JOIN</a></li>
+        </ul>
+        </span>
+</header>
+<div id="wrap">
+    <nav>
+    <div class="mainMenuBox">
+    <div class="menuItem">
+        <ul>
+          <li><a href="박조은interviews.html">Interviews</a></li>
+          <li><a href="#">Conference</a></li>
+          <li><a href="박조은magazine.html">Magazine</a></li>
+          <li><a href="../박조은index.html"><img src="../img/logo.png"></a></li>
+          <li><a href="박조은articles.html">Articles</a></li>
+          <li><a href="#">Talks</a></li>
+          <li><a href="#">Books</a></li>
+          <li ><a href="#" id="subMenuLi">Topics&nbsp;<img src="../img/arrow.gif"></a></li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+    
+    <div id="subMenuBox">
+        <div id="subMenuItem">
+            <ul>
+                <li><a href="박조은career.html">Career</a></li>
+                <li><a href="박조은collaboration.html">Collaboration</a></li>
+                <li><a href="박조은creativeProcess.html">Creative Process</a></li>
+                <li><a href="박조은productivity.html">Productivity</a></li>
+                <li><a href="박조은phychology.html">Psychology</a></li>
+            </ul>
+        </div>
+    </div>
+    
+
+<form id="newMemberForm" method="post" action="newMemberOk.jsp" onSubmit="return checkForm()" method="post" enctype="text/plain">
+	<table cellspacing="50" style="padding-top:100px;padding-bottom:200px;">
+    <tr>
+    	<td><p style="font-size:2em;color:#7b68ee;font-weight:bold;">Contact</p></td>
+    </tr>
+    <tr>
+    	<td><label for="firstName">First name</label></td>
+        <td><input id="firstName" name="FirstName" type="text" value="" maxlength="18" autofocus></td>
+    </tr>
+    <tr>
+    	<td><label for="lastName">Last name</label></td>
+        <td><input id="lastName" name="lastName" type="text" value="" maxlength="20"></td>
+    </tr>
+    <tr>
+    	<td><label for="email">Email</label></td>
+        <td><input id="email" name="email" type="text" value="" maxlength="64"></td>
+    </tr>
+    <tr>
+    	<td><label for="title">Title</label></td>
+        <td><input id="title" name="title" type="text" value="" maxlength="18"></td>
+    </tr>
+    <tr>
+    	<td colspan="2"><textarea rows="20" id="message" name="message" placeholder="Message" style="width:100%;"></textarea></td>
+    </tr>
+    <tr>
+    	<td colspan="2" style="text-align:center;"><button type="submit"><span>Send</span></button></td>
+    </tr>
+    </table>
+</form>
+    
+    <footer style="text-align:center;margin:0 auto;height:300px;">
+            
+                <div class="title" style="font-size:2em;padding-top:50px;font-weight:bold;"></div>
+                <div style="margin-top:20px;">
+            	<div style="margin-top:30px;font-size:14px;width:300px;text-align:left;">
+                November 2017, somewhere in <a href="#">South Korea</a><p><br>
+                ©2017 Creative Boom Ltd.<p><br>
+                Registered in England and Wales #07437294.<p><br>
+                Created by Boomerang PR
+
+                </div>
+                <div class="totop" style="float:right;margin-right:20px;">
+                ↑<br>TOP
+                </div>
+    </footer>
+</body>
+</html>

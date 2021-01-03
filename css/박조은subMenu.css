@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#subMenuBox{
+	position:absolute;
+	top:170px;
+	right:25%;
+	line-height:35px;
+	z-index:10; /* 슬라이드쇼 박스 위로 드롭다운 하도록*/
+	padding-bottom:0;
+	visibility:hidden; /* SUB 메뉴 항목 숨김 - 슬라이드업 순간 안 보임 */
+}
+#subMenuItem{
+	/*visibility:hidden;*/
+}
+#subMenuItem ul{
+	width:200px;
+	position:absolute;
+	display:block;
+	margin-right:20%;
+	z-index:10;
+	height:120px;
+	padding:0;
+}
+#subMenuItem ul li{
+	font-size:1.1em;
+	line-height:30px;
+	background:rgba(0,0,0,0.8);
+	color:white;
+	border-top:1px solid white;
+	display:block;
+}
+#subMenuItem ul li:hover{
+	background-color:white;
+}
+#subMenuItem ul li a{
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+#subMenuItem ul li a:hover{
+	color:black;	
+}

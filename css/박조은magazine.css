@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	.magazine{
+		height:700px;
+		margin-bottom:5%;
+	}
+	.back{
+		display:none;
+	}
+	.clip-2{
+		float:left;
+	}
+	.clip-3{
+		float:right;
+	}
+	.magazine .bigCon{
+		font-size:5em;
+		font-weight:bold;
+	}
+	.magazine .bigCon a:hover{
+		text-decoration:none;
+	}
+	.clip-3 ul li{
+		width:250px;
+		height:50px;
+		line-height:50px;
+		text-align:center;
+		font-weight:bold;
+		margin:50px 0;
+		display:block;
+		background-color:#7b68ee;
+	}
+	.clip-3 ul li:first-child{
+		width:165px;
+	}
+	.clip-3 ul li a{
+		color:white;
+	}
+	#contents li:hover a{
+		display:block;
+	}
