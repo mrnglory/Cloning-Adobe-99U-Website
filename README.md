@@ -3,4 +3,4 @@ Cloning [the website](https://99u.adobe.com/) using HTML, CSS, and JavaScript(ES
 Following image is the actual main page of this project. If you want to check more details, download this project's source codes and access the "index.html".
 <br/>
 
-![mood-indigo-full-page](https://user-images.githubusercontent.com/52367973/116242454-e3008480-a7a0-11eb-9686-99a0894ae98a.gif)
+![mood-indigo-full-page](https://user-images.githubusercontent.com/52367973/116243446-eba58a80-a7a1-11eb-9238-bbd863181544.gif)
