@@ -1,0 +1,54 @@
+jQuery / javascript 기능 정리
+
+{*.html}
+- Nav의 메인 로고를 제외한 각 img 마다 hover했을 때와 아닌 경우를 fadeTo 이용해 0.3초안에 투명도 주는 기능
+- 화면상에 고정 되어있는 Top 버튼 클릭시 해당 페이지의 맨 위로 이동하는 기능
+- 600px 이상 스크롤 시 화면 상단의 Nav를 고정시키는 기능 (박조은fixedNav.js)
+- 화면상에 고정 되어있는 Top 버튼에 hover 하고서 10초가 지나면 버튼이 45도 회전하고, 마우스를 다시 떼면 원래대로 돌아오는 기능 (박조은buttonRotate.js)
+
+{박조은index.html}
+- .clip-1 영역과 .clip-5 영역에 slideShow 기능
+- Nav의 <li>Topics</li>에만 적용되도록 subMenu 드롭다운 기능
+  : 데스크탑의 크기에 따라 subMenu의 위치가 달라짐. 
+
+{박조은contact.html}
+- First name 작성 뒤 enter키 누르면 Last name 으로 키보드 커서 이동
+- Last name 작성 뒤 enter키 누르면 Email 로 키보드 커서 이동
+- Email 에서 @ 와, .com 혹은 .net을 삽입한 텍스트여야만 enter키 누르면 Title 로 키보드 커서 이동
+- Title 작성 뒤 enter키 누르면 Message 로 키보드 커서 이동
+- 각 항목들을 하나라도 채우지 않으면 해당 alert 발생
+
+{박조은login.html}
+- Email 에서 @ 와, .com 혹은 .net을 삽입한 텍스트여야만 enter키 누르면 Password 로 키보드 커서 이동
+- 각 항목들을 하나라도 채우지 않으면 해당 alert 발생
+- JOIN 버튼에 hover 할 경우 background-color 변경 및 fadeTo 되는 기능 (박조은index.js)
+
+{박조은join.html}
+- First name 작성 뒤 enter키 누르면 Last name 으로 키보드 커서 이동
+- Last name 작성 뒤 enter키 누르면 Phone 으로 키보드 커서 이동
+- #phone1 3글자 완료하면 #phone2 로 커서 이동, #phone2 4글자 완료하면 #phone3로 커서 이동, #phone3 4글자 완료하면 Email로 커서 이동
+- Email 에서 @ 와, .com 혹은 .net을 삽입한 텍스트여야만 Password로 이동
+- Password 작성 뒤 enter키 누르면 Confirm Password로 커서 이동
+- 각 항목들을 하나라도 채우지 않으면 해당 alert 발생 (체크박스도 체크해야 함)
+
+{박조은interviews.html
+ 박조은articles.html
+ 박조은career.html
+ 박조은collaboration.html
+ 박조은creativeProcess.html
+ 박조은productivity.html
+ 박조은phychology.html}
+- 각 img를 hover 할 경우 animate를 이용해 width를 늘림으로써 줌인되는 기능 (박조은subPage.js)
+- 각 페이지 콘텐츠 하단에 <ol> 에 해당하는 번호들에 hover할 경우 첫번째 번호 제외하고서 color와 background-color 변경 및 fadeTo되는 기능
+
+{박조은magazine.html}
+- 각 잡지 img에 hover할 경우 각각 다른 이미지들로 바뀌는 기능
+
+{박조은issue-no-15.html
+ 박조은issue-no-14.html
+ 박조은issue-no-13.html
+ 박조은issue-no-12.html
+ 박조은issue-no-11.html
+ 박조은issue-no-10.html
+ 박조은issue-no-9.html} // 박조은magazine.html의 콘텐츠에서 넘어가는 서브페이지들
+- quantity 증감시 price total 정보가 변경되어 하단에 출력되는 기능
